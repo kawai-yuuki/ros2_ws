@@ -1,0 +1,9 @@
+[0.011s] Invoking command in '/home/yuukikawai-ubuntu22/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuukikawai-ubuntu22/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yuukikawai-ubuntu22/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.065s] [31mCMake Error at CMakeLists.txt:5 (if):
+[0.065s]   Flow control statements are not properly nested.
+[0.065s] 
+[0.065s] [0m
+[0.066s] -- Configuring incomplete, errors occurred!
+[0.066s] See also "/home/yuukikawai-ubuntu22/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[0.068s] gmake: *** [Makefile:226: cmake_check_build_system] エラー 1
+[0.071s] Invoked command in '/home/yuukikawai-ubuntu22/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yuukikawai-ubuntu22/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/yuukikawai-ubuntu22/ros2_ws/build/my_cpp_pkg -- -j12 -l12
